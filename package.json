@@ -6,6 +6,12 @@
 	"scripts": {
 		"start": "nodemon index.js"
 	},
+	"prettier": {
+		"tabWidth": 2,
+		"singleQuote": true,
+		"trailingComma": "all",
+		"printWidth": 120
+	},
 	"dependencies": {
 		"axios": "^0.19.2",
 		"express": "^4.17.1",
